@@ -32,10 +32,18 @@ input, label {
     display: block;
 }
 
+input[type="submit"] {
+    margin-top: 25px;
+}
+
 .float-left {
     float: left;
 }
 
 .margin-right {
     margin-right: 60px;
+}
+
+.margin-left {
+    margin-left: 25px;
 }
