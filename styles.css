@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+#left {
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1862&q=80);
+    background-size: cover;
+    min-width: 25%;
+    color: #FFF;
+}
+
+footer {
+    position: relative;
+    top: 95vh;
+}
