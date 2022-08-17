@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     margin: 0px;
+    background-color: #fafafa;
 }
 
 #left {
@@ -14,4 +15,27 @@ body {
 footer {
     position: relative;
     top: 95vh;
+}
+
+main {
+    /* padding-left: 25px; */
+    margin: auto 0;
+}
+
+form {
+    background-color: #FFF;
+    box-shadow: 0 5px 5px lightgray;
+    padding-left: 25px;
+}
+
+input, label {
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.margin-right {
+    margin-right: 60px;
 }
