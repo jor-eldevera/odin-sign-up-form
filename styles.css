@@ -12,9 +12,32 @@ body {
     color: #FFF;
 }
 
-footer {
+@font-face {
+    font-family: NorseBold;
+    src: url(Norse-Bold.otf);
+}
+
+#logo-section {
+    font-family: NorseBold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
     position: relative;
-    top: 95vh;
+    top: 25vh;
+}
+
+#logo-section p {
+    font-size: 70px;
+}
+
+#odin-logo {
+    width: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }
 
 main {
