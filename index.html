@@ -14,57 +14,58 @@
             <p>ODIN</p>
         </div>
         <footer>
-            Photo by Haile West on Unsplash
+            Photo by Haile West on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a> 
         </footer>
     </div>
     <main>
         <p class="margin-left header">This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
-
+            
             Sign up now to get started.</p>
-        <p class="margin-left header">You know you want to.</p>
-        <form id="form" action="">
-            <p class="header">Let's do this!</p>
-
-            <div class="float-left margin-right">
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" name="first_name" id="first_name">
-            </div>
-            
-            <div class="float-left">
-                <label for="last_name">LAST NAME</label>
-                <input type="text" name="last_name" id="last_name">
-            </div>
-
-            <br style="clear:both;" />
-
-            <div class="float-left margin-right">
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
-            </div>
-            
-            <div class="float-left">
-                <label for="phone_number">PHONE NUMBER</label>
-                <input type="tel" name="phone_number" id="phone_number">
-            </div>
-
-            <br style="clear:both;" />
-
-            <div class="float-left margin-right">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
+            <p class="margin-left header">You know you want to.</p>
+            <form id="form" action="">
+                <p class="header">Let's do this!</p>
+                
+                <div class="float-left margin-right">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
+                
+                <div class="float-left">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+                
+                <br style="clear:both;" />
+                
+                <div class="float-left margin-right">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                
+                <div class="float-left">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" name="phone_number" id="phone_number">
+                </div>
+                
+                <br style="clear:both;" />
+                
+                <div class="float-left margin-right">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" onkeyup="check();">
             </div>
 
             <div class="float-left">
                 <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm_password" id="confirm_password">
+                <input type="password" name="confirm_password" id="confirm_password" onkeyup="check();">
             </div>
-
+            
             <br style="clear:both;" />
         </form>
-
+        
         <input class="margin-left" type="submit" value="Create Account" form="form">
-
+        
         <p class="margin-left log-in">Already have an account? <a href="#">Log in</a></p>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
