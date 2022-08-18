@@ -27,14 +27,24 @@ form {
     background-color: #FFF;
     box-shadow: 0 5px 5px lightgray;
     padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 input, label {
     display: block;
 }
 
-input {
+form input {
     margin-bottom: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+form input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 0 5px 5px lightgray;
 }
 
 input[type="submit"] {
